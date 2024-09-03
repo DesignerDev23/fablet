@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "Fablet",
-    "slug": "Fablet",
-    "version": "1.0.0",
+    "slug": "fablet",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,10 +18,18 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.designer.dev23.fablet",
+      "versionCode": 2
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "979abd21-958b-4d81-b480-657fc77c0b59"
+      }
+    },
+    "owner": "designer.dev23"
   }
 }
